@@ -8,13 +8,13 @@ namespace Engine
 {
     public class LivingCreature
     {
-        public int MaximumHitPoints { get; set; }
+        public int MaxHitPoints { get; set; }
         public int CurrentHitPoints { get; set; }
 
-        public LivingCreature(int currentHitPoints, int maximumHitPoints)
+        public LivingCreature(int currentHitPoints, int maxHitPoints)
         {
             CurrentHitPoints = currentHitPoints;
-            MaximumHitPoints = maximumHitPoints;
+            MaxHitPoints = maxHitPoints;
         }
     }
 }
